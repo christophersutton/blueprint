@@ -1,0 +1,37 @@
+// Place all the styles related to the cards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "twitter/bootstrap/variables";
+
+.card {
+	border: 1px solid @gray;
+	border-radius:5px;
+	padding:10px;
+	background-color:#fff;
+	.actions_link, .actions {
+		display:none;
+	}
+	&:hover .actions_link{
+		display:block;
+		}
+	}
+
+tr, td { 
+	width: 20%;
+}
+
+.new_card {
+	height:100%;
+	a {
+	visibility:hidden;
+	}
+}
+
+.new_card:hover a {
+		visibility:visible;
+		text-align:center;
+		height:100%;
+		background-color:#ddd;
+		color:@brand-primary;
+	}

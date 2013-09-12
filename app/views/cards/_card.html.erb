@@ -1,0 +1,10 @@
+	<div class="card draggable" id="<%= card.id %>">
+	<a href="#actions_<%= card.id %>" class="actions_link pull-right">*</a>
+	<p><%= card.title %></p>
+
+	<div class="actions" id="actions_<%= card.id %>">
+	<%= link_to 'Zoom', card_path(card), :class => 'btn btn-default btn-small' %> 
+	<%= link_to 'Edit', edit_card_path(card), :class => 'btn btn-default btn-small' %> 
+    <%= link_to 'Delete', card, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-small btn-danger' %>
+    </div>
+    </div>
