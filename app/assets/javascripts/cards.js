@@ -63,10 +63,9 @@ $(function(){
       '<div class="new_card"><a href="#" class="btn btn-block btn-default new_card_link" >New Card</a></div>'
       );
   });
-  $('.actions_link').click(function(e){
-    e.preventDefault();
+  $('.actions_link').click(function(event){
+    event.preventDefault();
     var contentTarget = $(this).attr('href');
     $(contentTarget).slideToggle('fast');
-    //$(this).children().toggleClass("icon-chevron-down").toggleClass("icon-chevron-up");
-});
+  });
 });

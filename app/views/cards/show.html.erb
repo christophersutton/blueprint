@@ -1,18 +1,11 @@
 <p id="notice"><%= notice %></p>
-<p id="parent_card_id" data-parent="<%= @card.id %>"></p>
-<p>
-  <strong>Title:</strong>
+<a class="pull-right" href="/cards/<%= @card.parent_id %>" id="parent_card_id" data-parent="<%= @card.id %>">Zoom Out</a>
+<h1>
   <%= @card.title %>
-</p>
+</h1>
 
 <p>
-  <strong>Description:</strong>
   <%= @card.description %>
-</p>
-
-<p>
-  <strong>Type:</strong>
-  <%= @card.card_type %>
 </p>
 
 <%= render "card_table" %>
