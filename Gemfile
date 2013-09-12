@@ -11,7 +11,9 @@ gem 'jquery-ui-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'therubyracer'
-gem 'less-rails-bootstrap', '~> 3.0.0.wip', github: 'sinfin/less-rails-bootstrap-3'
+gem 'twitter-bootswatch-rails', '~> 3.0.0'
+
+#gem 'less-rails-bootstrap', '~> 3.0.0.wip', github: 'sinfin/less-rails-bootstrap-3'
 #gem 'bootstrap-sass', '~> 2.3.2.1'
 
 
