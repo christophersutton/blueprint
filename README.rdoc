@@ -1,28 +1,13 @@
-== README
+== Blueprint
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a tool for creating service blueprints, and using that blueprint as a basis for project management.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+= TO DO
+- fix JS to accomodate turbolinks and turn turbolinks back on
+- figure out font icons and start cleaning up links/buttons
+- disable moving a card to a td cell with a card already in it
+- when moving a card away from a td cell, reinitialize the cell to add a "new card" action
+- add an insert row option to insert a tr in the DOM, and increment all positions below it by 1
+- style card types, frontline/backline divider etc.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
